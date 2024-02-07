@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Peek - Login</title>
+  <title>Peek - Register</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -104,10 +104,10 @@
   </header><!-- End Header -->
 
   <main id="main">
-    <section id="login" class="contact mb-5">
-      <div class="container-login" data-aos="fade-up">
+    <section id="register" class="contact-register mb-5" style="justify-content: center;">
+      <div class="container-sign" data-aos="fade-up">
 
-        <div class="left">
+        <div class="left-register">
             <div class="name-title">
                 <p>P</p>
                 <p>E</p>
@@ -118,16 +118,19 @@
           </div><!-- End Contact Form -->
   
 
-        <div class="right">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="height: 100%; width: 100%; background: var(--color-black); align-content: center; display: grid; text-align: center;">
+        <div class="right-register">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="height: 100%; width: 100%; background: #B35600; align-content: center; display: grid; text-align: center;">
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Nombre Completo" required>
+              </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Telefono" required>
+            </div>
             <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Email" required>
               </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Contraseña" required>
-            </div>
-            <div class="Sign up">
-                <li><a href="signup.html">Si aun no tienes un usuario da click aqui para registrarte</a></li>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Confirmar email" required>
             </div>
             <div class="my-3">
               <div class="loading">Cargando</div>
